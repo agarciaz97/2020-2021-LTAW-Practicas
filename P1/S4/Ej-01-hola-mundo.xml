@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Utilización de dos espacios de nombres
+    para dos etiquetas producto qu tienen
+    estructura diferente-->
+    
+<tienda xmlns:t1="http://wallapop.es/funkoleria"
+        xmlns:t2="http://Vinted.es/funkoleria">
+
+    <t1:producto>
+        Un producto
+    </t1:producto>
+
+<!-- Esta etiqueta producto tiene
+    otra estructua --> 
+    <t2:producto>
+        <nombre>Otro producto</nombre>
+        <origen>España</origen>
+    </t2:producto>
+  
+
+    <hola></hola>
+
+</tienda>
